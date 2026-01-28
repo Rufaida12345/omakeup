@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Rufy's Touch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+    <body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-palette"></i> Rufy's Touch</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="tutorials.html">Tutorials</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Makeup Courses</h1>
+            <p>Learn from the best in the industry with our comprehensive curriculum</p>
+        </div>
+    </section>
+
+    <!-- Course Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-container">
+                <select id="level-filter">
+                    <option value="all">All Levels</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="facial">Facial Makeup</option>
+                    <option value="eyes">Eye Makeup</option>
+                    <option value="special">Special Effects</option>
+                    <option value="bridal">Bridal</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="courses">
+        <div class="container">
+            <div class="courses-grid" id="courses-container">
+                <!-- Course 1 -->
+                <div class="course-card" data-level="beginner" data-category="facial">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/ff9ec2/ffffff?text=Foundation+Mastery')">
+                        <span class="course-level">Beginner</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Foundation Mastery</h3>
+                        <p>Learn to choose, apply, and blend foundation for a flawless finish</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 3 hours</span>
+                                <span><i class="fas fa-user"></i> 1.2k students</span>
+                            </div>
+                            <div class="course-price">$49</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 2 -->
+                <div class="course-card" data-level="intermediate" data-category="eyes">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/7b68ee/ffffff?text=Eye+Shadow+Techniques')">
+                        <span class="course-level">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Eye Shadow Techniques</h3>
+                        <p>Master blending, cut creases, and colorful looks</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 5 hours</span>
+                                <span><i class="fas fa-user"></i> 2.1k students</span>
+                            </div>
+                            <div class="course-price">$69</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 3 -->
+                <div class="course-card" data-level="advanced" data-category="special">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/ff6b6b/ffffff?text=Prosthetics+%26+FX')">
+                        <span class="course-level">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Prosthetics & Special FX</h3>
+                        <p>Create wounds, scars, and fantasy creatures</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 12 hours</span>
+                                <span><i class="fas fa-user"></i> 850 students</span>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 4 -->
+                <div class="course-card" data-level="intermediate" data-category="bridal">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/4ecdc4/ffffff?text=Bridal+Makeup+Pro')">
+                        <span class="course-level">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Bridal Makeup Pro</h3>
+                        <p>Create stunning, long-lasting bridal looks for any skin tone</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 8 hours</span>
+                                <span><i class="fas fa-user"></i> 3.2k students</span>
+                            </div>
+                            <div class="course-price">$99</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 5 -->
+                <div class="course-card" data-level="beginner" data-category="facial">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/ffcc5c/ffffff?text=Makeup+Tools+Guide')">
+                        <span class="course-level">Beginner</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Makeup Tools Guide</h3>
+                        <p>Learn how to use every brush and tool in your kit</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 2 hours</span>
+                                <span><i class="fas fa-user"></i> 1.8k students</span>
+                            </div>
+                            <div class="course-price">$29</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 6 -->
+                <div class="course-card" data-level="advanced" data-category="eyes">
+                    <div class="course-image" style="background-image: url('https://placehold.co/600x400/88d8b0/ffffff?text=Avant+Garde+Eyes')">
+                        <span class="course-level">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Avant Garde Eyes</h3>
+                        <p>Create bold, artistic eye looks for editorial and stage</p>
+                        <div class="course-details">
+                            <div class="course-meta">
+                                <span><i class="fas fa-clock"></i> 7 hours</span>
+                                <span><i class="fas fa-user"></i> 420 students</span>
+                            </div>
+                            <div class="course-price">$89</div>
+                        </div>
+                        <a href="#" class="btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>Contact us to request a course on a specific topic</p>
+            <a href="contact.html" class="btn-primary">Request a Course</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-palette"></i> Rufy's Touch</h3>
+                    <p>Your premier destination for professional makeup education online.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Makeup Tips</a></li>
+                        <li><a href="#">Trend Reports</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates and exclusive offers</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rufy's Touch. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</body>
+</html>
